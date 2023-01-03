@@ -1,0 +1,12 @@
+.piece {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  cursor: grab;
+}

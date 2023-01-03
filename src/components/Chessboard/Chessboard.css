@@ -1,0 +1,32 @@
+.chessboard {
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  background-image: url("../../assets/themes/chessboard/wooden.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 800px;
+  height: 800px;
+  position: relative;
+}
+
+.coordinates {
+  position: absolute;
+  z-index: 99;
+}
+
+.coordinate-light {
+  fill: #111
+}
+
+.coordinate-dark {
+  fill: #eee
+}
+
+.mark {
+  position: absolute;
+  z-index: 99;
+  background-color: #a44ccc;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
